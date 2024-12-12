@@ -1,0 +1,123 @@
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.card {
+  width: 471px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+.pin-section {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 2px solid #ddd;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  background-color: #32a2e1;
+  padding-right: 0;
+}
+
+.pin-label {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding-left: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pin-box {
+  width: 250px;
+  height: 40px;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-right: 60px;
+}
+
+.logo {
+  width: 50px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+}
+.logo-container {
+  position: relative;
+  display: inline-block;
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  transform: translate(-60%, -30%);
+  width: ;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid white;
+  border-bottom: 80px solid white; /* Triangle color */
+
+  padding-right: 40px;
+  margin-right: 50px;
+}
+
+.instructions {
+  text-align: center;
+  margin-top: -10px;
+}
+
+.instructions strong {
+  font-weight: bold;
+}
+
+.amount p {
+  font-size: 2rem;
+  color: #000;
+  margin-top: -10px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 42.19px;
+}
+.num {
+  margin-left: 20px;
+}
+.details {
+  border-top: 2px solid #c2b5b5;
+  border-bottom: 2px solid #c2b5b5;
+  padding: 0px;
+  margin: -30px;
+  font-family: Roboto;
+  font-size: 13px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.barcode {
+  width: 120px;
+  height: 24px;
+  background-color: #333;
+  margin-top: 40px;
+}
+.navigation-link {
+  padding: 20px;
+  padding-top: 310px;
+}

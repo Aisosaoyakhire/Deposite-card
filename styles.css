@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fdf8f8;
+  display: flex;
+}
+
+.card {
+  width: 471px;
+  height: 258px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fce5e5;
+  text-align: center;
+  justify-content: center;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.logo {
+  width: 153px;
+  height: 137px;
+  top: 31px;
+  left: 52px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.cash-deposit {
+  color: #ff4848;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.amount {
+  color: #ff4848;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 21.09px;
+}
+
+.company-name {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer {
+  background-color: #ff1515;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: -14px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: #333;
+  margin-top: 20px;
+  padding-bottom: 0;
+}
+
+.website-link {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.website-link:hover {
+  text-decoration: underline;
+}
+.navigation-link {
+  padding: 20px;
+  padding-top: 310px;
+}
