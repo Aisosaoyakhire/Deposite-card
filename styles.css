@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Roboto;
   margin: 0;
   padding: 0;
   justify-content: center;
@@ -13,7 +13,7 @@ body {
   width: 471px;
   height: 258px;
   border: 1px solid #e0e0e0;
-  border-radius: 8px;
+  border-radius: 3px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fce5e5;
   text-align: center;
